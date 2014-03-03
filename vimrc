@@ -13,3 +13,7 @@ colorscheme solarized
 set tags=./.git/tags,./tags,tags;$HOME
 nnoremap <leader>. :CtrlPTag<cr>
 nnoremap <silent> <Leader>b :TagbarToggle<CR>
+let g:alternateExtensions_cc='hh'
+let g:alternateExtensions_hh='cc'
+nnoremap <silent> <Leader>] :A<CR>
+
